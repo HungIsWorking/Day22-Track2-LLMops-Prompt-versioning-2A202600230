@@ -1,0 +1,351 @@
+
+======================================================================
+Step 3 — RAGAS Evaluation with Gemini
+======================================================================
+
+🔧 Building RAG infrastructure...
+   ✓ Ready
+🔄 Generating answers for all 52 questions...
+   [10/52] Generated samples
+   [20/52] Generated samples
+   [30/52] Generated samples
+   [40/52] Generated samples
+   [50/52] Generated samples
+   ✓ Generated 52 samples for V1
+   ✓ Generated 52 samples for V2
+
+📊 Running RAGAS evaluation (this may take 10-15 minutes)...
+   ⏳ Evaluating V1 (concise)...
+   ⏳ Evaluating V2 (structured)...
+
+📈 RAGAS Evaluation Results
+----------------------------------------------------------------------
+Metric                    V1 (Concise)         V2 (Structured)     
+----------------------------------------------------------------------
+faithfulness              0.9708               0.8322              
+answer_relevancy          0.7501               0.7853              
+context_recall            0.9567               0.9567              
+context_precision         0.8910               0.8910              
+----------------------------------------------------------------------
+
+✅ Results saved to data/ragas_report.json
+   V1 Faithfulness: 0.9708
+   V2 Faithfulness: 0.8322
+   ✓ Faithfulness requirement met!
+
+
+Evaluating:   0%|          | 0/208 [00:00<?, ?it/s]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   0%|          | 1/208 [00:09<32:09,  9.32s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   2%|▏         | 4/208 [00:17<13:57,  4.11s/it]
+Evaluating:   4%|▍         | 9/208 [00:24<07:29,  2.26s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   5%|▍         | 10/208 [00:33<10:45,  3.26s/it]
+Evaluating:   7%|▋         | 14/208 [00:36<07:00,  2.17s/it]
+Evaluating:   7%|▋         | 15/208 [00:38<06:49,  2.12s/it]
+Evaluating:   8%|▊         | 17/208 [00:40<05:39,  1.78s/it]
+Evaluating:   9%|▉         | 19/208 [00:42<04:50,  1.54s/it]
+Evaluating:  10%|▉         | 20/208 [00:46<06:02,  1.93s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  11%|█         | 23/208 [00:53<06:19,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  12%|█▎        | 26/208 [00:59<06:26,  2.13s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  14%|█▍        | 29/208 [01:04<05:45,  1.93s/it]
+Evaluating:  14%|█▍        | 30/208 [01:06<05:41,  1.92s/it]
+Evaluating:  15%|█▍        | 31/208 [01:09<06:08,  2.08s/it]
+Evaluating:  15%|█▌        | 32/208 [01:11<06:00,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  16%|█▌        | 33/208 [01:15<07:40,  2.63s/it]
+Evaluating:  17%|█▋        | 36/208 [01:16<04:20,  1.52s/it]
+Evaluating:  18%|█▊        | 37/208 [01:18<04:31,  1.59s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  18%|█▊        | 38/208 [01:23<06:23,  2.26s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  20%|██        | 42/208 [01:30<05:20,  1.93s/it]
+Evaluating:  22%|██▏       | 46/208 [01:32<03:46,  1.40s/it]
+Evaluating:  23%|██▎       | 47/208 [01:33<03:35,  1.34s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  23%|██▎       | 48/208 [01:45<07:54,  2.97s/it]
+Evaluating:  25%|██▌       | 52/208 [01:46<04:17,  1.65s/it]
+Evaluating:  25%|██▌       | 53/208 [01:50<05:26,  2.10s/it]
+Evaluating:  27%|██▋       | 56/208 [01:53<04:11,  1.66s/it]
+Evaluating:  27%|██▋       | 57/208 [01:57<05:01,  2.00s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  28%|██▊       | 59/208 [01:59<04:09,  1.67s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  29%|██▉       | 60/208 [02:05<05:54,  2.40s/it]
+Evaluating:  30%|███       | 63/208 [02:06<03:36,  1.49s/it]
+Evaluating:  31%|███       | 64/208 [02:10<04:32,  1.89s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  32%|███▏      | 66/208 [02:14<04:51,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  33%|███▎      | 69/208 [02:20<04:37,  1.99s/it]
+Evaluating:  34%|███▎      | 70/208 [02:23<04:54,  2.13s/it]
+Evaluating:  35%|███▌      | 73/208 [02:25<03:24,  1.52s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  36%|███▌      | 74/208 [02:33<05:53,  2.64s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  37%|███▋      | 77/208 [02:37<04:31,  2.07s/it]
+Evaluating:  38%|███▊      | 79/208 [02:44<05:13,  2.43s/it]
+Evaluating:  40%|███▉      | 83/208 [02:46<03:24,  1.63s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  40%|████      | 84/208 [02:54<05:01,  2.43s/it]
+Evaluating:  42%|████▏     | 87/208 [02:57<04:01,  2.00s/it]
+Evaluating:  42%|████▏     | 88/208 [03:04<05:23,  2.70s/it]
+Evaluating:  44%|████▍     | 92/208 [03:05<03:01,  1.56s/it]
+Evaluating:  45%|████▍     | 93/208 [03:07<03:03,  1.59s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  45%|████▌     | 94/208 [03:10<03:24,  1.79s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  46%|████▌     | 95/208 [03:18<05:51,  3.11s/it]
+Evaluating:  48%|████▊     | 100/208 [03:23<03:20,  1.85s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  49%|████▉     | 102/208 [03:37<05:28,  3.10s/it]
+Evaluating:  51%|█████▏    | 107/208 [03:39<03:11,  1.89s/it]
+Evaluating:  52%|█████▏    | 108/208 [03:42<03:19,  1.99s/it]
+Evaluating:  53%|█████▎    | 110/208 [03:43<02:36,  1.60s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  53%|█████▎    | 111/208 [03:46<02:52,  1.78s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  54%|█████▍    | 112/208 [03:54<04:41,  2.93s/it]
+Evaluating:  56%|█████▌    | 116/208 [03:55<02:23,  1.56s/it]
+Evaluating:  56%|█████▋    | 117/208 [04:00<03:15,  2.15s/it]
+Evaluating:  58%|█████▊    | 120/208 [04:02<02:15,  1.54s/it]
+Evaluating:  59%|█████▊    | 122/208 [04:03<01:47,  1.24s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  59%|█████▉    | 123/208 [04:08<02:43,  1.93s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  61%|██████    | 126/208 [04:15<02:50,  2.08s/it]
+Evaluating:  62%|██████▏   | 128/208 [04:19<02:40,  2.00s/it]
+Evaluating:  62%|██████▎   | 130/208 [04:21<02:11,  1.69s/it]
+Evaluating:  63%|██████▎   | 131/208 [04:22<02:11,  1.71s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  63%|██████▎   | 132/208 [04:26<02:37,  2.08s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  64%|██████▍   | 133/208 [04:32<03:44,  2.99s/it]
+Evaluating:  65%|██████▌   | 136/208 [04:39<03:04,  2.56s/it]
+Evaluating:  68%|██████▊   | 142/208 [04:40<01:16,  1.16s/it]
+Evaluating:  69%|██████▉   | 143/208 [04:40<01:13,  1.13s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  69%|██████▉   | 144/208 [04:45<01:43,  1.61s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  70%|██████▉   | 145/208 [04:53<02:52,  2.74s/it]
+Evaluating:  72%|███████▏  | 150/208 [04:58<01:45,  1.82s/it]
+Evaluating:  73%|███████▎  | 152/208 [04:59<01:23,  1.49s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  74%|███████▎  | 153/208 [05:05<01:52,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  75%|███████▍  | 155/208 [05:08<01:44,  1.98s/it]
+Evaluating:  75%|███████▌  | 156/208 [05:14<02:13,  2.57s/it]
+Evaluating:  76%|███████▌  | 158/208 [05:15<01:40,  2.02s/it]
+Evaluating:  77%|███████▋  | 160/208 [05:16<01:12,  1.52s/it]
+Evaluating:  77%|███████▋  | 161/208 [05:17<01:05,  1.40s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  78%|███████▊  | 162/208 [05:19<01:11,  1.56s/it]
+Evaluating:  78%|███████▊  | 163/208 [05:23<01:31,  2.03s/it]
+Evaluating:  80%|███████▉  | 166/208 [05:27<01:14,  1.77s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  80%|████████  | 167/208 [05:32<01:33,  2.29s/it]
+Evaluating:  81%|████████  | 168/208 [05:34<01:27,  2.19s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  82%|████████▏ | 170/208 [05:36<01:04,  1.70s/it]
+Evaluating:  82%|████████▏ | 171/208 [05:36<00:56,  1.53s/it]
+Evaluating:  83%|████████▎ | 172/208 [05:39<01:02,  1.73s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  83%|████████▎ | 173/208 [05:44<01:32,  2.66s/it]
+Evaluating:  85%|████████▌ | 177/208 [05:52<01:10,  2.29s/it]
+Evaluating:  87%|████████▋ | 181/208 [05:55<00:42,  1.56s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  88%|████████▊ | 182/208 [05:59<00:47,  1.84s/it]
+Evaluating:  88%|████████▊ | 183/208 [06:00<00:42,  1.69s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  88%|████████▊ | 184/208 [06:06<01:01,  2.58s/it]
+Evaluating:  90%|████████▉ | 187/208 [06:07<00:32,  1.55s/it]
+Evaluating:  90%|█████████ | 188/208 [06:10<00:38,  1.91s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  92%|█████████▏| 191/208 [06:13<00:25,  1.47s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  93%|█████████▎| 193/208 [06:18<00:25,  1.70s/it]
+Evaluating:  93%|█████████▎| 194/208 [06:19<00:21,  1.56s/it]
+Evaluating:  94%|█████████▍| 195/208 [06:25<00:32,  2.50s/it]
+Evaluating:  95%|█████████▌| 198/208 [06:27<00:16,  1.62s/it]
+Evaluating:  96%|█████████▌| 200/208 [06:28<00:11,  1.40s/it]
+Evaluating:  97%|█████████▋| 201/208 [06:30<00:10,  1.48s/it]
+Evaluating:  97%|█████████▋| 202/208 [06:32<00:09,  1.54s/it]
+Evaluating:  98%|█████████▊| 203/208 [06:35<00:09,  1.95s/it]
+Evaluating:  98%|█████████▊| 204/208 [06:38<00:08,  2.12s/it]
+Evaluating:  99%|█████████▉| 206/208 [06:39<00:02,  1.44s/it]
+Evaluating: 100%|█████████▉| 207/208 [06:42<00:01,  1.74s/it]
+Evaluating: 100%|██████████| 208/208 [06:43<00:00,  1.53s/it]
+Evaluating: 100%|██████████| 208/208 [06:43<00:00,  1.94s/it]
+
+Evaluating:   0%|          | 0/208 [00:00<?, ?it/s]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   0%|          | 1/208 [00:03<12:22,  3.59s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   1%|          | 2/208 [00:14<26:47,  7.81s/it]
+Evaluating:   4%|▍         | 8/208 [00:16<05:08,  1.54s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   4%|▍         | 9/208 [00:23<08:13,  2.48s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:   5%|▍         | 10/208 [00:32<12:13,  3.71s/it]
+Evaluating:   6%|▋         | 13/208 [00:34<07:55,  2.44s/it]
+Evaluating:   7%|▋         | 14/208 [00:35<07:00,  2.17s/it]
+Evaluating:   7%|▋         | 15/208 [00:37<06:42,  2.08s/it]
+Evaluating:   8%|▊         | 17/208 [00:44<08:21,  2.62s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  11%|█         | 22/208 [00:53<06:38,  2.14s/it]
+Evaluating:  12%|█▏        | 24/208 [00:56<06:06,  1.99s/it]
+Evaluating:  12%|█▏        | 25/208 [00:57<05:36,  1.84s/it]
+Evaluating:  12%|█▎        | 26/208 [00:59<05:36,  1.85s/it]
+Evaluating:  13%|█▎        | 27/208 [01:04<07:18,  2.42s/it]
+Evaluating:  14%|█▍        | 30/208 [01:05<04:17,  1.44s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  15%|█▍        | 31/208 [01:07<04:58,  1.69s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  15%|█▌        | 32/208 [01:15<08:34,  2.92s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  16%|█▋        | 34/208 [01:17<06:20,  2.19s/it]
+Evaluating:  17%|█▋        | 35/208 [01:21<07:16,  2.52s/it]
+Evaluating:  18%|█▊        | 38/208 [01:22<04:11,  1.48s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  19%|█▉        | 39/208 [01:25<05:20,  1.89s/it]
+Evaluating:  20%|█▉        | 41/208 [01:28<04:47,  1.72s/it]
+Evaluating:  20%|██        | 42/208 [01:33<06:21,  2.30s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  21%|██        | 43/208 [01:38<07:47,  2.83s/it]
+Evaluating:  22%|██▏       | 46/208 [01:39<04:21,  1.61s/it]
+Evaluating:  23%|██▎       | 47/208 [01:41<04:56,  1.84s/it]
+Evaluating:  23%|██▎       | 48/208 [01:44<05:28,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  24%|██▎       | 49/208 [01:49<07:03,  2.66s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  25%|██▍       | 51/208 [01:54<06:40,  2.55s/it]
+Evaluating:  26%|██▋       | 55/208 [01:56<03:59,  1.56s/it]
+Evaluating:  27%|██▋       | 57/208 [01:59<03:48,  1.51s/it]
+Evaluating:  28%|██▊       | 59/208 [02:00<03:01,  1.22s/it]
+Evaluating:  29%|██▉       | 60/208 [02:02<03:16,  1.33s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  29%|██▉       | 61/208 [02:07<05:04,  2.07s/it]
+Evaluating:  30%|██▉       | 62/208 [02:08<04:26,  1.83s/it]
+Evaluating:  30%|███       | 63/208 [02:10<04:25,  1.83s/it]
+Evaluating:  31%|███▏      | 65/208 [02:15<04:52,  2.05s/it]
+Evaluating:  32%|███▏      | 67/208 [02:20<05:26,  2.32s/it]
+Evaluating:  33%|███▎      | 69/208 [02:26<05:43,  2.47s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  35%|███▍      | 72/208 [02:29<04:07,  1.82s/it]
+Evaluating:  36%|███▌      | 74/208 [02:34<04:42,  2.10s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  37%|███▋      | 77/208 [02:38<03:54,  1.79s/it]
+Evaluating:  38%|███▊      | 78/208 [02:40<03:54,  1.80s/it]
+Evaluating:  38%|███▊      | 79/208 [02:45<04:59,  2.32s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  40%|███▉      | 83/208 [02:50<03:52,  1.86s/it]
+Evaluating:  41%|████      | 85/208 [02:52<03:18,  1.61s/it]
+Evaluating:  42%|████▏     | 87/208 [02:53<02:37,  1.30s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  42%|████▏     | 88/208 [02:59<04:00,  2.00s/it]
+Evaluating:  43%|████▎     | 90/208 [03:01<03:15,  1.66s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  44%|████▍     | 91/208 [03:09<05:39,  2.90s/it]
+Evaluating:  46%|████▌     | 95/208 [03:10<02:52,  1.53s/it]
+Evaluating:  46%|████▌     | 96/208 [03:11<02:41,  1.44s/it]
+Evaluating:  47%|████▋     | 97/208 [03:21<05:36,  3.03s/it]
+Evaluating:  49%|████▊     | 101/208 [03:27<03:55,  2.20s/it]
+Evaluating:  50%|█████     | 104/208 [03:29<03:00,  1.74s/it]
+Evaluating:  50%|█████     | 105/208 [03:32<03:15,  1.89s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  51%|█████▏    | 107/208 [03:39<03:51,  2.30s/it]
+Evaluating:  53%|█████▎    | 110/208 [03:41<02:53,  1.78s/it]
+Evaluating:  54%|█████▍    | 112/208 [03:44<02:40,  1.68s/it]
+Evaluating:  55%|█████▍    | 114/208 [03:46<02:18,  1.47s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  55%|█████▌    | 115/208 [03:49<02:37,  1.70s/it]
+Evaluating:  56%|█████▋    | 117/208 [03:50<01:58,  1.31s/it]
+Evaluating:  57%|█████▋    | 118/208 [03:52<02:07,  1.41s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  57%|█████▋    | 119/208 [03:58<03:42,  2.50s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  58%|█████▊    | 121/208 [04:03<03:32,  2.45s/it]
+Evaluating:  59%|█████▊    | 122/208 [04:05<03:19,  2.32s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  60%|█████▉    | 124/208 [04:10<03:15,  2.32s/it]
+Evaluating:  61%|██████    | 126/208 [04:13<02:56,  2.16s/it]
+Evaluating:  62%|██████▏   | 128/208 [04:14<02:07,  1.60s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  62%|██████▏   | 129/208 [04:18<02:39,  2.01s/it]
+Evaluating:  62%|██████▎   | 130/208 [04:19<02:19,  1.79s/it]
+Evaluating:  63%|██████▎   | 131/208 [04:24<03:10,  2.47s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  65%|██████▌   | 136/208 [04:31<02:14,  1.87s/it]
+Evaluating:  67%|██████▋   | 139/208 [04:33<01:38,  1.43s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  67%|██████▋   | 140/208 [04:35<01:45,  1.55s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  68%|██████▊   | 141/208 [04:41<02:30,  2.24s/it]
+Evaluating:  69%|██████▉   | 144/208 [04:43<01:39,  1.56s/it]
+Evaluating:  70%|██████▉   | 145/208 [04:46<01:51,  1.77s/it]
+Evaluating:  71%|███████   | 147/208 [04:50<01:59,  1.96s/it]
+Evaluating:  72%|███████▏  | 149/208 [04:52<01:36,  1.63s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  72%|███████▏  | 150/208 [04:57<02:03,  2.12s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  73%|███████▎  | 152/208 [05:02<02:11,  2.35s/it]
+Evaluating:  74%|███████▍  | 154/208 [05:05<01:50,  2.05s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  75%|███████▌  | 156/208 [05:10<01:51,  2.14s/it]
+Evaluating:  76%|███████▌  | 158/208 [05:12<01:28,  1.77s/it]
+Evaluating:  77%|███████▋  | 160/208 [05:16<01:33,  1.95s/it]
+Evaluating:  77%|███████▋  | 161/208 [05:17<01:23,  1.77s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  78%|███████▊  | 162/208 [05:23<01:58,  2.57s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  79%|███████▉  | 165/208 [05:27<01:24,  1.96s/it]
+Evaluating:  80%|████████  | 167/208 [05:29<01:07,  1.64s/it]
+Evaluating:  81%|████████▏ | 169/208 [05:31<01:01,  1.58s/it]
+Evaluating:  82%|████████▏ | 170/208 [05:32<00:55,  1.46s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  82%|████████▏ | 171/208 [05:37<01:18,  2.13s/it]
+Evaluating:  84%|████████▎ | 174/208 [05:39<00:48,  1.43s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  84%|████████▍ | 175/208 [05:44<01:06,  2.01s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  85%|████████▌ | 177/208 [05:49<01:11,  2.29s/it]
+Evaluating:  87%|████████▋ | 180/208 [05:53<00:51,  1.86s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  87%|████████▋ | 181/208 [05:59<01:07,  2.49s/it]
+Evaluating:  88%|████████▊ | 183/208 [06:00<00:45,  1.84s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  88%|████████▊ | 184/208 [06:04<00:57,  2.41s/it]
+Evaluating:  90%|████████▉ | 187/208 [06:05<00:31,  1.48s/it]
+Evaluating:  90%|█████████ | 188/208 [06:08<00:34,  1.71s/it]
+Evaluating:  91%|█████████ | 189/208 [06:12<00:40,  2.12s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  92%|█████████▏| 192/208 [06:15<00:25,  1.59s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  93%|█████████▎| 193/208 [06:20<00:33,  2.26s/it]
+Evaluating:  94%|█████████▍| 195/208 [06:23<00:25,  1.97s/it]
+Evaluating:  95%|█████████▍| 197/208 [06:25<00:18,  1.64s/it]
+Evaluating:  95%|█████████▌| 198/208 [06:26<00:15,  1.51s/it]LLM returned 1 generations instead of requested 3. Proceeding with 1 generations.
+
+Evaluating:  96%|█████████▌| 199/208 [06:31<00:19,  2.19s/it]
+Evaluating:  97%|█████████▋| 202/208 [06:36<00:12,  2.02s/it]
+Evaluating:  98%|█████████▊| 204/208 [06:39<00:07,  1.82s/it]
+Evaluating:  99%|█████████▊| 205/208 [06:42<00:05,  1.96s/it]
+Evaluating:  99%|█████████▉| 206/208 [06:46<00:04,  2.46s/it]
+Evaluating: 100%|█████████▉| 207/208 [06:47<00:02,  2.11s/it]
+Evaluating: 100%|██████████| 208/208 [06:48<00:00,  1.83s/it]
+Evaluating: 100%|██████████| 208/208 [06:48<00:00,  1.96s/it]
